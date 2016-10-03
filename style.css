@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #ffffff;
+	background-image: url('./images/virginia_bkgd.jpg');
+	/* for pull-down menu to work in IE6*/
+	behavior: url("csshover2.htc");
+}
+
+#banner {
+	height: 150px;
+	width: 100%;
+	padding: 0;
+	background: #1d1e8a url(./images/mountains.jpg) no-repeat;
+	color: #FFF;
+	background-size: 100% 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#titletext {
+	color: #FFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+	margin: 20px 30px 20px 30px;
+}
+
+#main {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#bodytext {
+	padding: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 110%;
+	color: #000;
+}
+
+h2 {
+	background: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+	font-style: italic;
+	font-size: 130%;
+}
+
+h3 {
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 110%;
+	color: #fff;
+	background: #000055;
+}
+/* LEFT SIDEBAR */
+#sidebar-a {
+	float: left;
+	width: 150px;
+	\width: 160px;
+	w\idth: 150px;
+	margin-right: 5px;
+	padding: 0 5px 0 5px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #fff;
+}
+
+/* RIGHT SIDEBAR */
+#sidebar-b {
+	float: right;
+	width: 150px;
+	\width: 160px;
+	w\idth: 150px;
+	margin: 0 0 0 5px;
+	padding: 0 5px 15px 5px;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #FAF8E9;
+}
+
+#footer {
+	min-width: 60%;
+	float: center;
+}
+
+#footer  a:hover {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #5285DE;
+}
+
+.border {
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #5285DE;
+}
+
+.border2 {
+	padding: 10px;
+	border: 1px solid #5285DE;
+}
+
+.mission_table {
+	padding: 10px;
+	margin: 10px;
+	border: 3px solid #5285DE;
+	width: 500px;
+}
+
+.donation_padding {
+	margin-top: 200px;
+}
+
+.image-pad-top {
+	padding: 15px 0 0 0;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	text-align: center;
+}
+
+.align-right {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+.align-left {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.frame {
+	padding: 5px;
+	border: 1px solid #aaa;
+}
+
+.clear_left {
+	clear: left;
+}
+
+.clear_both {
+	clear: both;
+}
+
+/* The Magic Float Center Code */
+.float_center {
+	float: right;
+	position: relative;
+	left: -50%; /* or right 50% */
+	text-align: left;
+}
+
+.float_center2 {
+	float: right;
+	position: relative;
+	right: -50%;
+}
+
+.float_center>.child {
+	position: relative;
+	left: 50%;
+}
+
+/* MAIN CONTENT */
+#content {
+	padding: 0 20px 0 20px;
+	margin-left: 170px;
+	margin-right: 170px;
+	border-left: 1px dashed #333;
+	border-right: 1px dashed #333;
+	color: #555;
+	background-color: #fff;
+}
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 800px;
+	height: auto !important;
+	height: 800px;
+}
+
+#contact-area {
+	width: 500px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 420px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin-left: 15px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+td.left {
+	width: 80px;
+	text-align: left;
+	font-size: 1.4em;
+}
+
+#catpcha-area {
+	margin-left: 200px;
+}
+
+.g-recaptcha {
+	margin-left: 150px;
+}
+/* LEFT MENU */
+.menu ul li {
+	line-height: 1.8em;
+	margin: 0 10px 0 0;
+	padding: 0;
+	list-style-type: square;
+	color: #203FDC;
+	background: inherit;
+}
+
+.menu ul li a {
+	color: #F17C0B;
+	background: inherit;
+}
+
+.menu ul li a:hover {
+	color: #203FDC;
+	background: inherit;
+}
+
+/* pull-down mainmenu css */
+.mainmenu {
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color: #FFFFFF;
+	background: #000055;
+	padding: 0;
+	border: solid #000000;
+	border-width: 1px 0;
+	margin: 0 0 1em 0;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+
+.mainmenu ul ul a {
+	width: 100%;
+	height: 100%;
+}
+
+.mainmenu ul a {
+	width: 1%;
+}
+
+.mainmenu li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.mainmenu ul li {
+	float: left;
+	position: relative;
+}
+
+.mainmenu ul li a {
+	white-space: nowrap;
+}
+
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 15em;
+	background: #0000bb;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width: 15em;
+}
+
+.mainmenu li li a {
+	width: 13em;
+}
+
+.mainmenu li ul {
+	margin: 0;
+}
+
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+
+.ul_ch, .mainmenu li:hover ul ul, .mainmenu li li:hover ul ul, .mainmenu li li li:hover ul ul,
+	.mainmenu li li li li:hover ul ul, .mainmenu li li li li li:hover ul ul
+	{
+	left: -999em;
+}
+
+.mainmenu li:hover ul, .mainmenu li li:hover ul, .mainmenu li li li:hover ul,
+	.mainmenu li li li li:hover ul, .mainmenu li li li li li:hover ul {
+	left: auto;
+}
+
+.mainmenu li:hover>ul.ul_ch {
+	left: auto;
+}
+
+.mainmenu li:hover {
+	background: #1B1B9E;
+}
+
+.mainmenu li:hover a, .mainmenu li:hover a:visited, .mainmenu li:hover a:hover,
+	.mainmenu li a:hover {
+	color: #FFFFFF;
+}
+
+.mainmenu li:hover li a, .mainmenu li li:hover li a, .mainmenu li li li:hover li a,
+	.mainmenu li li li li:hover li a, .mainmenu li:hover li a:visited,
+	.mainmenu li li:hover li a:visited, .mainmenu li li li:hover li a:visited,
+	.mainmenu li li li li:hover li a:visited {
+	color: #FFFFFF;
+}
+
+.mainmenu li li:hover, .mainmenu li li li:hover, .mainmenu li li li li:hover,
+	.mainmenu li li li li li:hover, .mainmenu li li li li li li:hover {
+	background: #55002A;
+	z-index: 9999;
+}
+
+.mainmenu li li:hover a, .mainmenu li li li:hover a, .mainmenu li li li li:hover a,
+	.mainmenu li li li li li:hover a {
+	color: #FFFFFF;
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited, .mainmenu li li a,
+	.mainmenu li li a:visited {
+	color: #FFFFFF;
+}
+
+.mainmenu ul ul a:hover, .mainmenu li:hover li:hover a, .mainmenu li:hover li:hover a:visited,
+	.mainmenu li:hover li:hover li:hover a, .mainmenu li:hover li:hover li:hover a:visited,
+	.mainmenu li:hover li:hover li:hover li:hover a, .mainmenu li:hover li:hover li:hover li:hover a:visited,
+	.mainmenu li:hover li:hover li:hover li:hover li:hover a, .mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+	.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,
+	.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited
+	{
+	color: #FFFFFF;
+}
+
+.mainmenu li:hover li:hover li a, .mainmenu li:hover li:hover li a:visited,
+	.mainmenu li:hover li:hover li:hover li a, .mainmenu li:hover li:hover li:hover li a:visited,
+	.mainmenu li:hover li:hover li:hover li:hover li a, .mainmenu li:hover li:hover li:hover li:hover li a:visited,
+	.mainmenu li:hover li:hover li:hover li:hover li:hover li a, .mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited
+	{
+	color: #FFFFFF;
+}
+
+/* end of mainmenu css */
